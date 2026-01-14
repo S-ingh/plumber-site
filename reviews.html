@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews | Elite Pipe & Flow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Elite<span>Pipe</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="booking.html" class="btn-primary">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>What Our Clients Say</h1>
+                <p>Trusted by homeowners and facility managers across the region.</p>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <div class="container">
+                <div class="reviews-grid">
+                    <div class="review-card glass-panel">
+                        <div class="rating">★★★★★</div>
+                        <p class="review-text">"Elite Pipe & Flow saved us during a midnight burst pipe. Prompt,
+                            professional, and they left the place cleaner than they found it. Highly recommended!"</p>
+                        <div class="reviewer">
+                            <strong>Sarah J.</strong>
+                            <span>Homeowner</span>
+                        </div>
+                    </div>
+                    <div class="review-card glass-panel">
+                        <div class="rating">★★★★★</div>
+                        <p class="review-text">"As a restaurant owner, I need someone who knows grease traps and
+                            industrial boilers. These guys are the real deal. No-nonsense, expert service."</p>
+                        <div class="reviewer">
+                            <strong>Marcus L.</strong>
+                            <span>Commercial Client</span>
+                        </div>
+                    </div>
+                    <div class="review-card glass-panel">
+                        <div class="rating">★★★★★</div>
+                        <p class="review-text">"Installed a tankless water heater last month. The bills are lower and
+                            the water is endless. Great technical explanation and clean work."</p>
+                        <div class="reviewer">
+                            <strong>Daniel K.</strong>
+                            <span>Residential Client</span>
+                        </div>
+                    </div>
+                    <div class="review-card glass-panel">
+                        <div class="rating">★★★★★</div>
+                        <p class="review-text">"Our office building expansion was a breeze thanks to their plumbing
+                            design team. Efficient, up to code, and ahead of schedule."</p>
+                        <div class="reviewer">
+                            <strong>Linda R.</strong>
+                            <span>Project Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Elite Pipe & Flow. Precision in every drop.</p>
+        </div>
+    </footer>
+
+    <style>
+        .reviews-section {
+            padding: 60px 0 100px;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .review-card {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .rating {
+            color: var(--accent-blue);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .review-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: var(--light-text);
+        }
+
+        .reviewer strong {
+            display: block;
+            color: var(--accent-blue);
+        }
+
+        .reviewer span {
+            font-size: 0.9rem;
+            color: var(--muted-text);
+        }
+    </style>
+    <script src="main.js"></script>
+</body>
+
+</html>
